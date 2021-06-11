@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.titleContainer {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img02.rl0.ru/afisha/e1500x600i/daily.afisha.ru/uploads/images/7/e2/7e2ae87a44f24c01a0152eac587c3189.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.categories {
+  height: 60px;
+  padding-left: 24px;
+  padding-right: 24px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+
+.categories > a {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.categories > button:first-child {
+  margin-left: 0;
+}
+
+.categories > button:last-child {
+  margin-right: 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px calc(((100% - 1024px) / 2) - 12px);
+}
+
+.button {
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.nothing {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  width: 300px;
+  padding: 20px 40px;
+  border-radius: 8px;
+  border: 1px solid lightgrey;
+  text-align: center;
+}

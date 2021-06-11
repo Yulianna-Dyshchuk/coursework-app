@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.common {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px calc((100% - 1024px) / 2);
+  border-top: 1px solid #efefef;
+}
+
+.rights {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-top: 1px solid #efefef;
+}
+
+.rights-text {
+  font-size: 12px;
+  color: #676767;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon {
+  margin: -2px;
+  padding: 0;
+}
+
+.instagram-icon {
+  color: #d671ff;
+}
+
+.facebook-icon {
+  color: blue;
+}
+
+.telegram-icon {
+  color: #7b7fff;
+}
+
+.whatsapp-icon {
+  color: #21bf8c;
+}
+
+.email-icon {
+  color: red;
+}

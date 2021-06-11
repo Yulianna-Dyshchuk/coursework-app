@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  padding-top: 70px;
+}
+
+.header {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px calc(((100% - 1024px) / 2) - 12px);
+}

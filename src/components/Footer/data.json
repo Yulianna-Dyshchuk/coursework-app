@@ -1,0 +1,71 @@
+{
+  "columns": [
+    {
+      "title": "Pages",
+      "links": [
+        {
+          "to": "/",
+          "label": "Home"
+        },
+        {
+          "to": "/about",
+          "label": "About"
+        },
+        {
+          "to": "/prices",
+          "label": "Prices"
+        },
+        {
+          "to": "/contacts",
+          "label": "Contacts"
+        },
+        {
+          "to": "/portfolio",
+          "label": "Portfolio"
+        }
+      ]
+    },
+    {
+      "title": "Information",
+      "links": [
+        {
+          "to": "/",
+          "label": "Home"
+        },
+        {
+          "to": "/about",
+          "label": "About"
+        },
+        {
+          "to": "/prices",
+          "label": "Prices"
+        }
+      ]
+    },
+    {
+      "title": "Contacts",
+      "links": [
+        {
+          "type": "tel",
+          "to": "tel:+380950189548",
+          "label": "Phone: +380950189548"
+        },
+        {
+          "type": "mailto",
+          "to": "mailto:example@example.com",
+          "label": "Gmail: example@example.com"
+        },
+        {
+          "target": "_blank",
+          "to": "https://www.instagram.com/",
+          "label": "Instagram: <custom-link>"
+        },
+        {
+          "target": "_blank",
+          "to": "https://www.facebook.com/",
+          "label": "Facebook: <custom-link>"
+        }
+      ]
+    }
+  ]
+}

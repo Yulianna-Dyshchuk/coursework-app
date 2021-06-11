@@ -1,0 +1,6 @@
+# Build directory
+/dist
+
+# Node modules directory
+/node_modules
+/.idea
