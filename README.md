@@ -1,6 +1,6 @@
 ## Project
 
-### Enviroment
+### Environment
   - terminal -> npm install
 
 ### Development
