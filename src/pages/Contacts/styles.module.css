@@ -1,0 +1,11 @@
+.container {
+  padding: 70px 0 0 0;
+  margin: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}

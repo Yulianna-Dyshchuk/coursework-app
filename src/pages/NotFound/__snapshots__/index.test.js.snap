@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound component should render correctly without props 1`] = `
+<main>
+  <div>
+    <WithStyles(ForwardRef(Typography))
+      variant="h2"
+    >
+      404
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      variant="body2"
+    >
+      Ooops... URL is not found! 
+      <Link
+        to="/"
+      >
+        Do you want to go to the home page?
+      </Link>
+    </WithStyles(ForwardRef(Typography))>
+  </div>
+</main>
+`;

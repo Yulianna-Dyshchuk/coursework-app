@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarSelect component should render correctly with props 1`] = `
+<div>
+  <Link
+    to="/portfolio"
+  >
+    <WithStyles(ForwardRef(Typography))
+      variant="subtitle1"
+    >
+      Portfolio
+    </WithStyles(ForwardRef(Typography))>
+  </Link>
+</div>
+`;
+
+exports[`NavbarSelect component should render correctly without props 1`] = `
+<div>
+  <Link
+    to="/portfolio"
+  >
+    <WithStyles(ForwardRef(Typography))
+      variant="subtitle1"
+    >
+      Portfolio
+    </WithStyles(ForwardRef(Typography))>
+  </Link>
+</div>
+`;

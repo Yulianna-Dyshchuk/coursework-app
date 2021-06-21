@@ -3,7 +3,7 @@ import { Typography } from "@material-ui/core";
 import styles from "./styles.module.css";
 import { PriceItem } from "../../components/PriceItem";
 
-const D1 = () => (
+export const D1 = () => (
   <Typography variant="body2">
     <br />
     Consultations / Meetings
@@ -29,7 +29,7 @@ const D1 = () => (
   </Typography>
 );
 
-const D2 = () => (
+export const D2 = () => (
   <Typography variant="body2">
     <br />
     Consultations / Meetings
@@ -53,7 +53,7 @@ const D2 = () => (
   </Typography>
 );
 
-const D3 = () => (
+export const D3 = () => (
   <Typography variant="body2">
     <br />
     Consultations / Meetings

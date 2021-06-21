@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterSocialLink component should render correctly with props 1`] = `
+<a
+  href="test"
+/>
+`;
+
+exports[`FooterSocialLink component should render correctly without props 1`] = `
+<a
+  href=""
+/>
+`;

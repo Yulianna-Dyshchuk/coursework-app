@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterList component should render correctly with props 1`] = `
+<div>
+  <WithStyles(ForwardRef(Typography))
+    variant="subtitle1"
+  >
+    test
+  </WithStyles(ForwardRef(Typography))>
+</div>
+`;
+
+exports[`FooterList component should render correctly with props and children 1`] = `
+<div>
+  <WithStyles(ForwardRef(Typography))
+    variant="subtitle1"
+  >
+    test
+  </WithStyles(ForwardRef(Typography))>
+  <span>
+    test child 1
+  </span>
+  <span>
+    test child 2
+  </span>
+</div>
+`;
+
+exports[`FooterList component should render correctly without props 1`] = `
+<div>
+  <WithStyles(ForwardRef(Typography))
+    variant="subtitle1"
+  />
+</div>
+`;

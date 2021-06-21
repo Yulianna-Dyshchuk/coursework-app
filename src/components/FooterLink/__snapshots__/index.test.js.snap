@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterLink component should render correctly with props 1`] = `
+<a
+  href="test"
+  target="test"
+  type="test"
+>
+  <WithStyles(ForwardRef(Typography))
+    variant="body2"
+  >
+    test
+  </WithStyles(ForwardRef(Typography))>
+</a>
+`;
+
+exports[`FooterLink component should render correctly without props 1`] = `
+<Link
+  to=""
+>
+  <WithStyles(ForwardRef(Typography))
+    variant="body2"
+  />
+</Link>
+`;

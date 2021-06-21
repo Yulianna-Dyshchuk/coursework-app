@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary component should render correctly with children 1`] = `
+<Fragment>
+  <span>
+    test child 1
+  </span>
+  <span>
+    test child 2
+  </span>
+</Fragment>
+`;
+
+exports[`ErrorBoundary component should render correctly without props 1`] = `<Fragment />`;

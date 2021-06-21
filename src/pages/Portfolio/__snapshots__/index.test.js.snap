@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio component should render correctly with props 1`] = `
+<main>
+  <Switch>
+    <Route
+      exact={true}
+      path="/test/"
+      render={[Function]}
+    />
+    <Route
+      exact={true}
+      path="/test/:category"
+      render={[Function]}
+    />
+  </Switch>
+</main>
+`;
+
+exports[`Portfolio component should render correctly without props 1`] = `
+<main>
+  <Switch>
+    <Route
+      exact={true}
+      path="undefined/"
+      render={[Function]}
+    />
+    <Route
+      exact={true}
+      path="undefined/:category"
+      render={[Function]}
+    />
+  </Switch>
+</main>
+`;

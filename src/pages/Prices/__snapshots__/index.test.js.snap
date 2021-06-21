@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prices children components D1 component should render correctly without props 1`] = `
+<WithStyles(ForwardRef(Typography))
+  variant="body2"
+>
+  <br />
+  Consultations / Meetings
+  <br />
+  <b>
+    8 hours
+  </b>
+  of photo shooting
+  <br />
+  <b>
+    Author photo processing
+  </b>
+  <br />
+  Return 
+  <b>
+    of 500 photos
+  </b>
+  <br />
+  <b>
+    15 photos
+  </b>
+  in the first 10 days
+  <br />
+  Printing 
+  <b>
+    25 photo
+  </b>
+  <br />
+  Photo on 
+  <b>
+    a flash drive
+  </b>
+  <br />
+  Return 
+  <b>
+    in the original box
+  </b>
+  <br />
+  <br />
+  Return 
+  <b>
+    in 30 days
+  </b>
+</WithStyles(ForwardRef(Typography))>
+`;
+
+exports[`Prices children components D2 component should render correctly without props 1`] = `
+<WithStyles(ForwardRef(Typography))
+  variant="body2"
+>
+  <br />
+  Consultations / Meetings
+  <br />
+  <b>
+    12 hours of photo shooting
+  </b>
+  <br />
+  <b>
+    Author photo processing
+  </b>
+  <br />
+  Return 
+  <b>
+    of 700 photos
+  </b>
+  <br />
+  <b>
+    15 photos
+  </b>
+   in the first 10 days
+  <br />
+  Printing 
+  <b>
+    35 photo
+  </b>
+  <br />
+  Photo on 
+  <b>
+    a flash drive
+  </b>
+  <br />
+  Return 
+  <b>
+    in the original box
+  </b>
+  <br />
+  <br />
+  Return 
+  <b>
+    in 40 days
+  </b>
+</WithStyles(ForwardRef(Typography))>
+`;
+
+exports[`Prices children components D3 component should render correctly without props 1`] = `
+<WithStyles(ForwardRef(Typography))
+  variant="body2"
+>
+  <br />
+  Consultations / Meetings
+  <br />
+  <b>
+    14 hours
+  </b>
+   of photo shooting
+  <br />
+  <b>
+    Author photo processing
+  </b>
+  <br />
+  Return 
+  <b>
+    of 900 photos
+  </b>
+  <br />
+  <b>
+    15 photos
+  </b>
+   in the first 10 days
+  <br />
+  Printing 
+  <b>
+    30x40 photobook
+  </b>
+  <br />
+  Photo on 
+  <b>
+    a flash drive
+  </b>
+  <br />
+  Return 
+  <b>
+    in the original box
+  </b>
+  <br />
+  <br />
+  Return 
+  <b>
+    in 50 days
+  </b>
+</WithStyles(ForwardRef(Typography))>
+`;
+
+exports[`Prices component should render correctly without props 1`] = `
+<div>
+  <div>
+    <WithStyles(ForwardRef(Typography))
+      variant="h2"
+    >
+      Prices
+    </WithStyles(ForwardRef(Typography))>
+  </div>
+  <div>
+    <PriceItem
+      description={<D1 />}
+      imageUrl="https://blog.pokupon.ua/wp-content/uploads/2019/08/image3-9.jpg"
+      price={500}
+      title="STANDART"
+    />
+    <PriceItem
+      description={<D2 />}
+      imageUrl="https://blog.pokupon.ua/wp-content/uploads/2019/08/image14-5.jpg"
+      price={1250}
+      title="PREMIUM"
+    />
+    <PriceItem
+      description={<D3 />}
+      imageUrl="https://blog.pokupon.ua/wp-content/uploads/2019/08/image27-3.jpg"
+      price={2500}
+      title="ALL INCLUSIVE"
+    />
+  </div>
+</div>
+`;

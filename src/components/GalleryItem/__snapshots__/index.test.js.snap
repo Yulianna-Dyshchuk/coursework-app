@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryItem component should render correctly with props 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <GalleryItem
+    category="all"
+    imageUrl="https://www.lotus-qa.com/wp-content/uploads/2020/02/testing.jpg"
+    shortDescription="Test"
+    title="TEST"
+  />
+</Provider>
+`;
+
+exports[`GalleryItem component should render correctly without props 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <GalleryItem />
+</Provider>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contacts component should render correctly without props 1`] = `
+<main>
+  <img
+    alt=""
+    src="https://drive.google.com/uc?id=1JzOeDHro0ejybfvxldbvTmydN3Owc3aN"
+  />
+</main>
+`;

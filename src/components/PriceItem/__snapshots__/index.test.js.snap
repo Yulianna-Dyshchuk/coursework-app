@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceItem component should render correctly with props 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "backgroundImage": "url(https://blog.pokupon.ua/wp-content/uploads/2019/08/image3-9.jpg)",
+      }
+    }
+  >
+    <div>
+      <WithStyles(ForwardRef(Typography))
+        variant="body2"
+      >
+        <b>
+          1000
+        </b>
+         uah
+      </WithStyles(ForwardRef(Typography))>
+    </div>
+  </div>
+  <div>
+    <WithStyles(ForwardRef(Typography))
+      variant="body1"
+    >
+      TEST TITLE
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      variant="body1"
+    >
+      TEST DESCRIPTION
+    </WithStyles(ForwardRef(Typography))>
+  </div>
+</div>
+`;
+
+exports[`PriceItem component should render correctly without props 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "backgroundImage": "url(undefined)",
+      }
+    }
+  >
+    <div>
+      <WithStyles(ForwardRef(Typography))
+        variant="body2"
+      >
+        <b />
+         uah
+      </WithStyles(ForwardRef(Typography))>
+    </div>
+  </div>
+  <div>
+    <WithStyles(ForwardRef(Typography))
+      variant="body1"
+    />
+    <WithStyles(ForwardRef(Typography))
+      variant="body1"
+    />
+  </div>
+</div>
+`;

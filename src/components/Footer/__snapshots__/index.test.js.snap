@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component should render correctly without props 1`] = `
+<footer>
+  <div>
+    <FooterList
+      key="0"
+      list={
+        Array [
+          Object {
+            "label": "Home",
+            "to": "/",
+          },
+          Object {
+            "label": "About",
+            "to": "/about",
+          },
+          Object {
+            "label": "Prices",
+            "to": "/prices",
+          },
+          Object {
+            "label": "Contacts",
+            "to": "/contacts",
+          },
+          Object {
+            "label": "Portfolio",
+            "to": "/portfolio",
+          },
+        ]
+      }
+      title="Pages"
+    />
+    <FooterList
+      key="1"
+      list={
+        Array [
+          Object {
+            "label": "Home",
+            "to": "/",
+          },
+          Object {
+            "label": "About",
+            "to": "/about",
+          },
+          Object {
+            "label": "Prices",
+            "to": "/prices",
+          },
+        ]
+      }
+      title="Information"
+    />
+    <FooterList
+      key="2"
+      list={
+        Array [
+          Object {
+            "label": "Phone: +380950189548",
+            "to": "tel:+380950189548",
+            "type": "tel",
+          },
+          Object {
+            "label": "Gmail: example@example.com",
+            "to": "mailto:example@example.com",
+            "type": "mailto",
+          },
+          Object {
+            "label": "Instagram: <custom-link>",
+            "target": "_blank",
+            "to": "https://www.instagram.com/",
+          },
+          Object {
+            "label": "Facebook: <custom-link>",
+            "target": "_blank",
+            "to": "https://www.facebook.com/",
+          },
+        ]
+      }
+      title="Contacts"
+    >
+      <div>
+        <FooterSocialLink
+          icon={
+            <Memo
+              className=" "
+            />
+          }
+          key="0"
+          to=""
+        />
+        <FooterSocialLink
+          icon={
+            <Memo
+              className=" "
+            />
+          }
+          key="1"
+          to=""
+        />
+        <FooterSocialLink
+          icon={
+            <Memo
+              className=" "
+            />
+          }
+          key="2"
+          to=""
+        />
+        <FooterSocialLink
+          icon={
+            <Memo
+              className=" "
+            />
+          }
+          key="3"
+          to=""
+        />
+      </div>
+    </FooterList>
+  </div>
+  <div>
+    <WithStyles(ForwardRef(Typography))
+      variant="body2"
+    >
+      @All rights reserved! 2021
+    </WithStyles(ForwardRef(Typography))>
+  </div>
+</footer>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should render correctly without props 1`] = `
+<main>
+  <img
+    alt="img"
+    src="https://drive.google.com/uc?id=1NHSkvGSdcL8lpsARa4pLgP7F-5rMJFKh"
+  />
+</main>
+`;

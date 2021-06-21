@@ -11,6 +11,7 @@ import { StylesProvider } from "@material-ui/core";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { ErrorBoundary } from "./components/ErrorBoundary";
+import { Contacts } from "./pages/Contacts";
 
 const Root = () => {
   return (
@@ -23,6 +24,7 @@ const Root = () => {
                 <Switch>
                   <Route exact path="/" component={Home} />
                   <Route exact path="/prices" component={Prices} />
+                  <Route exact path="/contacts" component={Contacts} />
                   <Route path="/portfolio" render={(params) => <Portfolio path={params.match.path} />} />
                   <Route path="*" component={NotFound} />
                 </Switch>
