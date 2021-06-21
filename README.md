@@ -4,6 +4,8 @@
   - terminal -> npm install
 
 ### Development
+  - terminal -> npm start (with running server api)
+  or
   - terminal -> npm run dev (with running server api)
 
 ### Tests
@@ -11,3 +13,4 @@
 
 ### Production
   - terminal -> npm run build (/dist directory)
+  - terminal -> npm run serve
